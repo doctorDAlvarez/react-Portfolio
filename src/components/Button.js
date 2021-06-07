@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const ButtonStyle = styled.div`
-  margin-top: 18rem;
+  margin-top: ${(props) => (props.lowMargin ? '8rem' : '50rem')};
   .button {
     font-size: 2.2rem;
-    background-color: ${(props) => (props.outline ? 'transparent' : 'white')};
+    background-color: ${(props) =>
+      props.outline ? 'transparent' : 'antiquewhite'};
     padding: 0.7em 2em;
     border-radius: 10px;
     display: inline-block;
@@ -15,8 +16,8 @@ const ButtonStyle = styled.div`
     color: ${(props) => (props.outline ? 'var(--gray-1)' : '#023047')};
   }
   .button:hover {
-    color: #023047;
-    background-color: #61dafb;
+    color: antiquewhite;
+    background-color: rgb(97, 218, 251, 0.6);
     transition: 100ms ease all;
   }
   @media only screen and (max-width: 768px) {
@@ -31,9 +32,14 @@ export default function Button({
   btnLink = 'test',
   btnText = 'test',
   outline = false,
+  lowMargin = false,
 }) {
   return (
-    <ButtonStyle outline={outline} className="button-wrapper">
+    <ButtonStyle
+      outline={outline}
+      lowMargin={lowMargin}
+      className="button-wrapper"
+    >
       <Link className="button" to={btnLink}>
         {btnText}
       </Link>

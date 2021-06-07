@@ -6,7 +6,7 @@ import Button from './Button';
 import aboutImg from '../assets/images/profile.jpeg';
 
 const AboutSectionStyle = styled.div`
-  padding: 10rem 0;
+  padding: 20rem 0;
   .container {
     display: flex;
     align-items: center;
@@ -75,22 +75,27 @@ export default function AboutSection() {
     <AboutSectionStyle>
       <div className="container">
         <div className="aboutSection__left">
-          <SectionTitle
-            subheading="Let me introduce myself"
-            heading="About me"
-          />
+          <SectionTitle heading="About me" />
           <PText>
-            I am a freelance software developer from Buenos Aires, Argentina. I
-            am totally convinced that computer science has a lot to help evolved
-            the healthcare industry.
+            I am a doctor who evolved <br />
+            as a <span style={{ color: '#61dafb' }}>software developer</span>
+            , seeking to improve the healthcare industry with my skills and
+            knowledge in both fields.
+            <br />
+            <br />
+            I'm also up for new challenges and to collaborate with innovative
+            startups.
+            <br />
+            <br />
+            Let's connect
           </PText>
           <div className="aboutSection__buttons">
-            <Button btnLink="/projects" btnText="Works" />
-            <Button btnLink="/about" btnText="Read More" outline />
+            <Button btnLink="/projects" btnText="Works" lowMargin />
+            <Button btnLink="/about" btnText="Read More" outline lowMargin />
           </div>
         </div>
         <div className="aboutSection__right">
-          <img style={{ opacity: '0.5' }} src={aboutImg} alt="about img" />
+          <img style={{ opacity: '0.9' }} src={aboutImg} alt="about img" />
         </div>
       </div>
     </AboutSectionStyle>

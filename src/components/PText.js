@@ -4,7 +4,8 @@ import styled from 'styled-components';
 const PStyle = styled.div`
   max-width: 500px;
   margin: 0 auto;
-  margin-left: 170px;
+  color: white;
+  /* margin-left: 170px; */
   font-size: 1.8rem;
   line-height: 1.3em;
   @media only screen and (max-width: 768px) {
@@ -16,7 +17,7 @@ const PStyle = styled.div`
 export default function PText({ children }) {
   return (
     <PStyle className="para">
-      <p style={{ color: 'antiquewhite' }}>{children}</p>
+      <p style={{ color: 'white' }}>{children}</p>
     </PStyle>
   );
 }

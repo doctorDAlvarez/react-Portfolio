@@ -9,7 +9,7 @@ const SectionTitleStyle = styled.div`
   }
   h2 {
     font-family: 'Montserrat Bold';
-    font-size: 6rem;
+    font-size: 8rem;
     margin-top: 0.5rem;
     text-transform: uppercase;
   }
@@ -23,13 +23,9 @@ const SectionTitleStyle = styled.div`
   }
 `;
 
-export default function SectionTitle({
-  subheading = 'This is subheading',
-  heading = 'This is heading',
-}) {
+export default function SectionTitle({ heading = 'This is heading' }) {
   return (
     <SectionTitleStyle className="section-title">
-      <p>{subheading}</p>
       <h2>{heading}</h2>
     </SectionTitleStyle>
   );

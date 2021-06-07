@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/pexels2.jpeg';
 import Button from './Button';
-import PText from './PText';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 
@@ -19,43 +17,52 @@ const HeroStyles = styled.div`
   }
   .hero__heading {
     font-size: 2rem;
-    margin-bottom: -4rem;
+    margin-bottom: 4rem; */
     position: relative;
     span {
       display: inline-block;
       width: 100%;
-      color: antiquewhite;
+      color: whitesmoke;
     }
     .hero__name {
-      font-size: 7rem;
+      text-align: left;
+      font-size: 13rem;
       font-family: 'Montserrat SemiBold';
-      color: var(--white);
+      /* color: rgb(97, 218, 251, 0.6); */
+      color: antiquewhite;
     }
   }
   .hero__img {
-    max-width: 900px;
-    width: 100%;
-    height: 600px;
+    max-width: 1200px;
+    width: 100vw;
+    height: 500px;
     margin: 0 auto;
-    border: 2px solid var(--gray-1);
+    margin-top: 50px;
+    opacity: 0.6;
+    border: 1px solid var(--gray-1);
   }
   .hero__info {
-    margin-top: -40rem;
+    margin-top: -30rem;
+    .para {
+      margin-left: 170px;
+    }
   }
   .hero__social,
   .hero__scrollDown {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     width: 50px;
   }
   .hero__social {
-    left: 50px;
+    left: 10px;
+    position: fixed;
   }
   .hero__scrollDown {
-    right: 50px;
+    right: 10px;
+    position: absolute;
+    bottom: 250px;
   }
   .hero__social__indicator,
   .hero__scrollDown {
@@ -108,6 +115,9 @@ const HeroStyles = styled.div`
     }
     .hero__info {
       margin-top: 3rem;
+      .para {
+        margin: 0 auto;
+      }
     }
     .hero__social {
       left: 0px;
@@ -150,26 +160,13 @@ export default function HeroSection() {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>Hello, my name is</span>
+            {/* <span>Hello and welcome!, my name is</span> */}
             <span className="hero__name">Diego Alvarez</span>
           </h1>
-          <div className="hero__img">
+          {/* <div className="hero__img">
             <img src={HeroImg} alt="Hero" />
-          </div>
+          </div> */}
           <div className="hero__info">
-            <PText>
-              I am a doctor mutated to{' '}
-              <span style={{ color: '#61dafb' }}>software developer</span>
-              , seeking to transform the healthcare industry with my knowledge
-              and skills in both fields.
-              <br />
-              <br />
-              I'm also up for new challenges and to collaborate with cool and
-              innovative startups.
-              <br />
-              <br />
-              Let's work together!
-            </PText>
             <Button btnLink="/projects" btnText="view my work" />
           </div>
           <div className="hero__social">
@@ -180,18 +177,39 @@ export default function HeroSection() {
             <div className="hero__social__text">
               <ul>
                 <li>
-                  <a href="https://google.com" target="_blank" rel="noreferrer">
-                    FB
+                  <a
+                    href="https://github.com/doctorDAlvarez"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GH
                   </a>
                 </li>
                 <li>
-                  <a href="https://google.com" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://twitter.com/doctorDAlvarez"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     TW
                   </a>
                 </li>
                 <li>
-                  <a href="https://google.com" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.linkedin.com/in/doctordalvarez/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     IN
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://doctordalvarez.hashnode.dev/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    HN
                   </a>
                 </li>
               </ul>

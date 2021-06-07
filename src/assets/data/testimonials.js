@@ -1,27 +1,47 @@
 const testimonials = [
   {
     id: 1,
-    name: 'Shaif Arfan',
-    title: 'CEO',
-    org: 'WEB CIFAR',
+    name: 'University of Buenos Aires',
+    title: 'Doctorate',
+    org: '2011 -> 2016',
     desc:
-      'Ayan is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing.',
+      'Ph.D Anesthesiology. Tesis: Chronic Pain Management and the Endocannabinoid system.',
   },
   {
     id: 2,
-    name: 'Fahim Elahe',
-    title: 'Co-founder',
-    org: 'Kreetive',
+    name: 'Harvard Extension School',
+    title: 'Master',
+    org: '2020 -> now',
     desc:
-      'Really amazing communication skills. Always understand what I am trying to achieve. Also, his work is really amazing. Do really high-quality work.',
+      'Computer Science and Web Programming with Python and JavaScript. CS50-CS50W',
   },
   {
     id: 3,
-    name: 'Sayed',
-    title: 'Marketing Head',
-    org: 'Eleven Dawn',
-    desc:
-      'Really hard-working person. Deliver the work as promised. Planning to work more with this person.',
+    name: 'Treehouse Bootcamp',
+    title: 'Techdegree',
+    org: '2020 -> 2021',
+    desc: 'Full Stack JavaScript Techdegree.',
+  },
+  {
+    id: 4,
+    name: 'Zero to Mastery Academy',
+    title: 'Online Certificate',
+    org: '2019',
+    desc: 'Python',
+  },
+  {
+    id: 5,
+    name: 'Dataquest',
+    title: 'Online Certificate',
+    org: '2020',
+    desc: 'Python for Data Science',
+  },
+  {
+    id: 6,
+    name: 'University of Buenos Aires',
+    title: 'Bachelor',
+    org: '2009',
+    desc: 'Medicine. Honours Diploma. Grade: 9.17pts.',
   },
 ];
 export default testimonials;

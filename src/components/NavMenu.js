@@ -12,17 +12,17 @@ const NavMenuStyles = styled.div`
   padding: 1rem 0;
   background: #282c34;
   ul {
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 90%;
-    text-align: center;
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+    text-align: right;
     li {
       display: inline-block;
       border-radius: 8px;
       transition: 0.3s ease background-color;
       &:hover {
-        background-color: #61dafb;
-        color: #282c34;
+        background-color: rgb(97, 218, 251, 0.6);
+        color: antiquewhite;
       }
     }
     a {
@@ -37,7 +37,7 @@ const NavMenuStyles = styled.div`
       color: antiquewhite;
     }
     .active:hover {
-      color: #282c34;
+      color: antiquewhite;
     }
   }
 
@@ -131,7 +131,7 @@ export default function NavMenu() {
             Home
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             to="/about"
             onClick={() => setShowNav(!showNav)}
@@ -141,8 +141,8 @@ export default function NavMenu() {
           >
             About
           </NavLink>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <NavLink
             to="/projects"
             onClick={() => setShowNav(!showNav)}
@@ -152,7 +152,7 @@ export default function NavMenu() {
           >
             Projects
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink
             to="/contact"

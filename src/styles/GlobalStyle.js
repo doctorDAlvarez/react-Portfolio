@@ -18,6 +18,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 10px;
     font-family: 'Roboto Mono';
     background-color: #282c34;
+    scroll-behavior: smooth;
   }
   ul,li{
     list-style: none;
