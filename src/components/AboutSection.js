@@ -40,6 +40,7 @@ const AboutSectionStyle = styled.div`
     }
   }
   @media only screen and (max-width: 768px) {
+    padding: 10rem 0;
     .container {
       flex-direction: column;
       text-align: center;
@@ -59,11 +60,13 @@ const AboutSectionStyle = styled.div`
       margin-top: 2rem;
     }
     .aboutSection__buttons {
+      margin-top: 2rem;
       flex-direction: column;
       gap: 0;
       .button-wrapper,
       a {
-        width: 100%;
+        margin-top: 4px;
+        width: 70%;
         text-align: center;
       }
     }

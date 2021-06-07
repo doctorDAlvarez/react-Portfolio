@@ -102,6 +102,9 @@ const HeroStyles = styled.div`
   @media only screen and (max-width: 768px) {
     .hero {
       min-height: 750px;
+      .container {
+        margin: 2px 45px;
+      }
     }
     .hero__heading {
       font-size: 1.4rem;
@@ -122,7 +125,7 @@ const HeroStyles = styled.div`
     .hero__social {
       margin-top: 2px;
       left: 0px;
-      bottom: 15%;
+      bottom: 1%;
       width: 20px;
       .hero__social__indicator {
         width: 20px;
@@ -135,6 +138,7 @@ const HeroStyles = styled.div`
       }
       .hero__social__text {
         ul {
+          margin-top: 4px;
           li {
             a {
               font-size: 1.2rem;
@@ -147,6 +151,7 @@ const HeroStyles = styled.div`
     .hero__scrollDown {
       right: 0;
       width: 20px;
+      bottom: 2%;
       gap: 1rem;
       p {
         font-size: 1.3rem;

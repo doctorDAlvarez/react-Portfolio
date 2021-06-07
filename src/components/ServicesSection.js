@@ -25,9 +25,10 @@ const ServicesItemStyles = styled.div`
     .services__allItems {
       flex-direction: column;
       max-width: 350px;
+      max-height: 600px;
       margin: 0 auto;
-      margin-top: 5rem;
-      gap: 5rem;
+      margin-top: 4rem;
+      gap: 2rem;
     }
   }
 `;

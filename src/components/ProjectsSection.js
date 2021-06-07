@@ -42,11 +42,13 @@ const ProjectsSectionStyle = styled.div`
     font-size: 2rem;
   }
   @media only screen and (max-width: 768px) {
+    padding: 2rem 0;
     .projects__allItems {
+      padding: 2rem 0;
       flex-direction: column;
       max-width: 400px;
       margin: 0 auto;
-      margin-top: 7rem;
+      margin-top: 2rem;
       gap: 5rem;
       .projectItem__img {
         width: 100%;
