@@ -1,5 +1,4 @@
 import React from 'react';
-import { MdCode, MdDeveloperBoard } from 'react-icons/md';
 import styled from 'styled-components';
 import {
   DiGit,

@@ -1,5 +1,4 @@
 import React from 'react';
-import { MdDesktopMac } from 'react-icons/md';
 import { FaReact } from 'react-icons/fa';
 import styled from 'styled-components';
 import PText from './PText';

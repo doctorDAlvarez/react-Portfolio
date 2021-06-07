@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import FooterColumn from './FooterColumn';
 import PText from './PText';
 
 const FooterStyles = styled.div`

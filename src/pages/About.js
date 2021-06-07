@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import Button from '../components/Button';
 import PText from '../components/PText';
 import AboutImg from '../assets/images/about-page-img.png';
-import AboutItem from '../components/AboutItem';
-import ContactBanner from '../components/ContactBanner';
 
 const AboutPageStyles = styled.div`
   padding: 10rem 0 10rem 0;
