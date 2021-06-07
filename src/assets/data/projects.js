@@ -8,14 +8,14 @@ import CavinImg from '../images/cavinimg.jpg';
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    name: 'React Gallery App',
     desc:
       'An application to track your all data from one place. I developed the website and the mobile app',
     img: UTrackerImg,
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    name: 'React Gif Search App',
     desc:
       'An app to help people to get an overview of how they can make the city beautiful.',
     img: GreenCtgImg,
