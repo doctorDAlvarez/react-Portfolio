@@ -80,25 +80,39 @@ export default function About() {
             <p className="about__subheading">
               Hi, I am <span>Diego Alvarez</span>
             </p>
-            <h2 className="about__heading">A Software developer</h2>
+            <h2 className="about__heading">A software developer</h2>
             <div className="about__info">
               <PText>
-                I' ve been working in the tech field for two years exclusively.
+                I've been working with teams and groups of people for ten years,
+                mentored residents and be the leader of simulator training in
+                anesthesiology. <br />
+                <br />
+                I' am used to stressfull conditions like the operating room
+                enviroment, and assume an active role when problems must be
+                address rapidly. <br />
+                <br /> I've got experience in a big company training their
+                employees in ACLS and achieved great results with the HR
+                department in cardiac arrest management in the factory. <br />
+                <br />
+                I love to learn by teaching and doing.
                 <br />
                 <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In at
-                consectetur distinctio quas mollitia amet officiis ullam ipsa
-                eos consequuntur fugit ex dicta iusto quia dolor, earum ipsam
-                sunt blanditiis.
+                Now I am looking to apply my coding and tech skills and try to
+                improve the healthcare industry, developing innovative tools and
+                resources for the daily work of physicians.
                 <br />
                 <br />
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
-                aliquam dolorem autem eius aliquid illum ab id, unde nam nisi,
-                fugiat laudantium mollitia iure! Non suscipit corrupti excepturi
-                ipsam? Consectetur?
+                I am also want to collaborate with startups and companies that
+                could make use of my help.
+                <br />
+                <br />
+                Thanks for visiting.
+                <br />
+                <br />
+                @doc
               </PText>
             </div>
-            <Button btnText="Resume" btnLink="/" lowMargin />
+            {/* <Button btnText="Resume" btnLink="/" lowMargin /> */}
           </div>
           <div className="rigth">
             <img src={AboutImg} alt="about img" />
