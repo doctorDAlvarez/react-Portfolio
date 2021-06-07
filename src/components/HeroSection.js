@@ -110,9 +110,9 @@ const HeroStyles = styled.div`
         font-size: 4.5rem;
       }
     }
-    .hero__img {
+    /* .hero__img {
       height: 300px;
-    }
+    } */
     .hero__info {
       margin-top: 3rem;
       .para {
@@ -120,6 +120,7 @@ const HeroStyles = styled.div`
       }
     }
     .hero__social {
+      margin-top: 2px;
       left: 0px;
       bottom: 15%;
       width: 20px;
@@ -167,7 +168,7 @@ export default function HeroSection() {
             <img src={HeroImg} alt="Hero" />
           </div> */}
           <div className="hero__info">
-            <Button btnLink="/projects" btnText="view my work" />
+            <Button btnLink="/projects" btnText="my work" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">
