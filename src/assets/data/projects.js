@@ -1,24 +1,24 @@
 import { v4 as uuidv4 } from 'uuid';
 import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
+import reactImg from '../images/reactor.jpeg';
+import reactImg2 from '../images/reactor2.jpeg';
 import CoinTrackerImg from '../images/cointracker.jpg';
 import CavinImg from '../images/cavinimg.jpg';
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'React Gallery App',
-    desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+    name: 'React Gallery app',
+    desc: 'https://github.com/doctorDAlvarez/gallery-app',
+    img: reactImg,
+    link: 'https://reactphotosearchapp.netlify.app/',
   },
   {
     id: uuidv4(),
-    name: 'React Gif Search App',
-    desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+    name: 'React Giphy App',
+    desc: 'https://github.com/doctorDAlvarez/GIF-Searching-APP',
+    img: reactImg2,
+    link: 'https://giphysearchreact.netlify.app/',
   },
   {
     id: uuidv4(),

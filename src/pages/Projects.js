@@ -76,12 +76,13 @@ export default function Projects() {
           </form>
         </div>
         <div className="projects__allItems">
-          {projectData.map((item) => (
+          {projectData.map((project) => (
             <ProjectItem
-              key={item.id}
-              title={item.name}
-              desc={item.desc}
-              img={item.img}
+              key={project.id}
+              title={project.name}
+              img={project.img}
+              gitlink={project.desc}
+              link={project.link}
             />
           ))}
         </div>

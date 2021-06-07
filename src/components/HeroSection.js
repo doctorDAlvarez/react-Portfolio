@@ -125,7 +125,7 @@ const HeroStyles = styled.div`
     .hero__social {
       margin-top: 2px;
       left: 0px;
-      bottom: 1%;
+      bottom: 0px;
       width: 20px;
       .hero__social__indicator {
         width: 20px;
@@ -142,7 +142,7 @@ const HeroStyles = styled.div`
           li {
             a {
               font-size: 1.2rem;
-              margin-bottom: 1rem;
+              margin-bottom: 0rem;
             }
           }
         }

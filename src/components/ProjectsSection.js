@@ -65,7 +65,7 @@ export default function ProjectsSection() {
         <div className="projects__allItems">
           <Swiper
             spaceBetween={30}
-            slidesPerView={1}
+            slidesPerView={2}
             navigation
             breakpoints={{
               640: {
@@ -75,7 +75,7 @@ export default function ProjectsSection() {
                 slidesPerView: 2,
               },
               1200: {
-                slidesPerView: 3,
+                slidesPerView: 2,
               },
             }}
           >
@@ -84,9 +84,11 @@ export default function ProjectsSection() {
               return (
                 <SwiperSlide key={project.id}>
                   <ProjectItem
+                    key={project.id}
                     title={project.name}
                     img={project.img}
-                    desc={project.desc}
+                    gitlink={project.desc}
+                    link={project.link}
                   />
                 </SwiperSlide>
               );

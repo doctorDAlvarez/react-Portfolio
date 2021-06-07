@@ -93,7 +93,7 @@ export default function AboutSection() {
             Let's connect
           </PText>
           <div className="aboutSection__buttons">
-            <Button btnLink="/projects" btnText="Works" lowMargin />
+            <Button btnLink="/resume" btnText="Resume" lowMargin download />
             <Button btnLink="/about" btnText="Read More" outline lowMargin />
           </div>
         </div>

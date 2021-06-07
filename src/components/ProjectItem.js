@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { DiGithub } from 'react-icons/di';
 import projectImg from '../assets/images/projectImg.png';
 
 const ProjectItemStyles = styled.div`
@@ -43,19 +43,26 @@ const ProjectItemStyles = styled.div`
 export default function ProjectItem({
   img = projectImg,
   title = 'Project Name',
-  desc = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, eum?`,
+  gitlink = ``,
+  link = '',
 }) {
   return (
     <ProjectItemStyles>
-      <Link to="/projects" className="projectItem__img">
-        <img src={img} alt="project img" />
-      </Link>
-      <div className="projectItem__info">
-        <Link to="/data">
-          <h3 className="projectItem__title">{title}</h3>
-        </Link>
-        <p className="projectItem__desc">{desc}</p>
-      </div>
+      <a href={link}>
+        <div className="projectItem__img">
+          <img src={img} alt="project img" />
+        </div>
+        <div className="projectItem__info">
+          <div>
+            <h3 className="projectItem__title">{title}</h3>
+          </div>
+        </div>
+      </a>
+      <a href={gitlink}>
+        <p className="projectItem__desc">
+          <DiGithub style={{ width: '50px' }} />
+        </p>
+      </a>
     </ProjectItemStyles>
   );
 }

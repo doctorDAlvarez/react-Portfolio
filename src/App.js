@@ -10,6 +10,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Home from './pages/Home';
+import Resume from './pages/Resume';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -39,6 +40,9 @@ export default function App() {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/resume">
+            <Resume />
           </Route>
         </Switch>
         {/* <Footer /> */}
