@@ -1,33 +1,39 @@
 {
   "files": {
-    "main.js": "/static/js/main.adc5d93c.chunk.js",
-    "main.js.map": "/static/js/main.adc5d93c.chunk.js.map",
+    "main.js": "/static/js/main.4b7fce75.chunk.js",
+    "main.js.map": "/static/js/main.4b7fce75.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a28230b2.js",
     "runtime-main.js.map": "/static/js/runtime-main.a28230b2.js.map",
     "static/css/2.41ebb63b.chunk.css": "/static/css/2.41ebb63b.chunk.css",
-    "static/js/2.842b7a1f.chunk.js": "/static/js/2.842b7a1f.chunk.js",
-    "static/js/2.842b7a1f.chunk.js.map": "/static/js/2.842b7a1f.chunk.js.map",
+    "static/js/2.1ad2033c.chunk.js": "/static/js/2.1ad2033c.chunk.js",
+    "static/js/2.1ad2033c.chunk.js.map": "/static/js/2.1ad2033c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.41ebb63b.chunk.css.map": "/static/css/2.41ebb63b.chunk.css.map",
-    "static/js/2.842b7a1f.chunk.js.LICENSE.txt": "/static/js/2.842b7a1f.chunk.js.LICENSE.txt",
+    "static/js/2.1ad2033c.chunk.js.LICENSE.txt": "/static/js/2.1ad2033c.chunk.js.LICENSE.txt",
     "static/media/Montserrat-Bold.079ca05d.ttf": "/static/media/Montserrat-Bold.079ca05d.ttf",
     "static/media/Montserrat-SemiBold.fa8441f3.ttf": "/static/media/Montserrat-SemiBold.fa8441f3.ttf",
     "static/media/RobotoMono-Regular.418a8f9f.ttf": "/static/media/RobotoMono-Regular.418a8f9f.ttf",
-    "static/media/about-page-img.9c8789a0.png": "/static/media/about-page-img.9c8789a0.png",
-    "static/media/cavinimg.77adeaa3.jpg": "/static/media/cavinimg.77adeaa3.jpg",
-    "static/media/cointracker.8da9e0cd.jpg": "/static/media/cointracker.8da9e0cd.jpg",
-    "static/media/greenctg.e51b3bbd.jpg": "/static/media/greenctg.e51b3bbd.jpg",
-    "static/media/map.7d98ba39.png": "/static/media/map.7d98ba39.png",
+    "static/media/diegoalvarezCV.68bb754d.pdf": "/static/media/diegoalvarezCV.68bb754d.pdf",
+    "static/media/directory.8973dbf8.jpeg": "/static/media/directory.8973dbf8.jpeg",
+    "static/media/fullstack.469968c5.jpeg": "/static/media/fullstack.469968c5.jpeg",
+    "static/media/harvard.82b17eec.jpeg": "/static/media/harvard.82b17eec.jpeg",
+    "static/media/hunter.97226486.jpeg": "/static/media/hunter.97226486.jpeg",
+    "static/media/interactive.36084654.jpeg": "/static/media/interactive.36084654.jpeg",
+    "static/media/library.10e7aaec.jpeg": "/static/media/library.10e7aaec.jpeg",
     "static/media/profile.0b35c063.jpeg": "/static/media/profile.0b35c063.jpeg",
     "static/media/projectImg.771236e1.png": "/static/media/projectImg.771236e1.png",
+    "static/media/publicapi.55d54f3f.jpeg": "/static/media/publicapi.55d54f3f.jpeg",
+    "static/media/reactor.10a3fadf.jpeg": "/static/media/reactor.10a3fadf.jpeg",
+    "static/media/reactor2.8df92d4f.jpeg": "/static/media/reactor2.8df92d4f.jpeg",
+    "static/media/rsvp.5ba3ae27.jpeg": "/static/media/rsvp.5ba3ae27.jpeg",
     "static/media/scroll-down-arrow.b013ca45.svg": "/static/media/scroll-down-arrow.b013ca45.svg",
     "static/media/social-media-arrow.f5e093ce.svg": "/static/media/social-media-arrow.f5e093ce.svg",
-    "static/media/utracker.be1fe64a.jpg": "/static/media/utracker.be1fe64a.jpg"
+    "static/media/team.510b1e52.jpeg": "/static/media/team.510b1e52.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.a28230b2.js",
     "static/css/2.41ebb63b.chunk.css",
-    "static/js/2.842b7a1f.chunk.js",
-    "static/js/main.adc5d93c.chunk.js"
+    "static/js/2.1ad2033c.chunk.js",
+    "static/js/main.4b7fce75.chunk.js"
   ]
 }
