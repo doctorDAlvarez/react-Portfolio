@@ -29,7 +29,7 @@ const HeroStyles = styled.div`
       font-size: 11rem;
       font-family: 'Montserrat SemiBold';
       /* color: rgb(97, 218, 251, 0.6); */
-      color: antiquewhite;
+      color: rgb(97,218,251,0.6);
     }
   }
   .hero__img {

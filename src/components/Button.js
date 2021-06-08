@@ -6,8 +6,7 @@ const ButtonStyle = styled.div`
   margin-top: ${(props) => (props.lowMargin ? '8rem' : '50rem')};
   .button {
     font-size: 2.2rem;
-    background-color: ${(props) =>
-      props.outline ? 'transparent' : 'antiquewhite'};
+    background-color: ${(props) => (props.outline ? 'transparent' : 'white')};
     padding: 0.7em 2em;
     border-radius: 10px;
     display: inline-block;
@@ -16,8 +15,10 @@ const ButtonStyle = styled.div`
     color: ${(props) => (props.outline ? 'var(--gray-1)' : '#023047')};
   }
   .button:hover {
-    color: antiquewhite;
-    background-color: rgb(97, 218, 251, 0.6);
+    /* color: rgb(97, 218, 251, 0.6); */
+    background-color: ${(props) =>
+      props.outline ? 'rgb(97, 218, 251)' : 'antiquewhite'};
+    color: ${(props) => (props.outline ? 'white' : '#282c34')};
     transition: 100ms ease all;
   }
   @media only screen and (max-width: 768px) {

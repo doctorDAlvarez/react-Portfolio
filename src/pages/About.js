@@ -1,15 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import Button from '../components/Button';
 import PText from '../components/PText';
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/team.jpeg';
 
 const AboutPageStyles = styled.div`
   padding: 10rem 0 10rem 0;
   .top-section {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 2rem;
   }
   .left {
@@ -114,7 +113,7 @@ export default function About() {
             </div>
             {/* <Button btnText="Resume" btnLink="/" lowMargin /> */}
           </div>
-          <div className="rigth">
+          <div className="right">
             <img src={AboutImg} alt="about img" />
           </div>
         </div>

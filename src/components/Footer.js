@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import PText from './PText';
 
 const FooterStyles = styled.div`
-  padding: 1rem;
+  padding: 2rem;
 
   background-color: var(--deep-dark);
   .container {
