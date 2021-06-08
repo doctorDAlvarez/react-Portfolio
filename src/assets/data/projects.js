@@ -76,7 +76,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'CS50 Problem Sets Code',
+    name: 'Harvard CS50 Problem Sets Code',
     desc: 'https://github.com/doctorDAlvarez/CS50_Projects',
     img: harvard,
     link: 'https://github.com/doctorDAlvarez/CS50_Projects',

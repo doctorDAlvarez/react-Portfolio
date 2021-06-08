@@ -101,7 +101,7 @@ export default function About() {
                 resources for the daily work of physicians.
                 <br />
                 <br />
-                I am also want to collaborate with startups and companies that
+                I also want to collaborate with startups and companies that
                 could make use of my help.
                 <br />
                 <br />

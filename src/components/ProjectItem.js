@@ -15,6 +15,9 @@ const ProjectItemStyles = styled.div`
       height: 100%;
     }
   }
+  .projectItem__img:hover {
+    border: 1px solid rgb(97, 218, 251, 0.6);
+  }
   .projectItem__info {
     margin-top: 1rem;
     background-color: var(--deep-dark);
@@ -22,9 +25,7 @@ const ProjectItemStyles = styled.div`
     padding: 1rem;
     border-radius: 12px;
   }
-  .projectItem__info:hover {
-    border: 1px solid rgb(97, 218, 251, 0.6);
-  }
+
   .projectItem__title {
     font-size: 2.2rem;
   }
