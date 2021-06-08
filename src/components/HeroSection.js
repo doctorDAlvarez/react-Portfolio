@@ -26,7 +26,7 @@ const HeroStyles = styled.div`
     }
     .hero__name {
       text-align: left;
-      font-size: 13rem;
+      font-size: 11rem;
       font-family: 'Montserrat SemiBold';
       /* color: rgb(97, 218, 251, 0.6); */
       color: antiquewhite;
