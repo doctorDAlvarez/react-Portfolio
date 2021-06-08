@@ -17,7 +17,7 @@ const HeroStyles = styled.div`
   }
   .hero__heading {
     font-size: 2rem;
-    margin-bottom: 4rem; */
+    margin-bottom: 4rem;
     position: relative;
     span {
       display: inline-block;
@@ -27,9 +27,9 @@ const HeroStyles = styled.div`
     .hero__name {
       text-align: left;
       font-size: 12rem;
-      font-family: 'RobotoMono Regular';
+      font-family: 'Montserrat SemiBold';
       /* color: rgb(97, 218, 251, 0.6); */
-      color: rgb(97,218,251,0.6);
+      color: rgb(97, 218, 251, 0.6);
     }
   }
   .hero__img {
@@ -111,7 +111,7 @@ const HeroStyles = styled.div`
       margin-bottom: -3rem;
       .hero__name {
         font-size: 6.5rem;
-        font-family: 'Montserrat SemiBold'
+        font-family: 'Montserrat SemiBold';
       }
     }
     /* .hero__img {
