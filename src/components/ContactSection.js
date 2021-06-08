@@ -55,7 +55,7 @@ export default function ContactSection() {
               <ContactInfoItem icon={<FaTwitter />} text="Twitter Profile" />
             </a>
           </div>
-          <div className="right">
+          <div className="left">
             <a href="https://github.com/doctordalvarez">
               <ContactInfoItem icon={<DiGithub />} text="Github Profile" />
             </a>
