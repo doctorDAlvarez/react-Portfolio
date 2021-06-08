@@ -107,10 +107,10 @@ const HeroStyles = styled.div`
       }
     }
     .hero__heading {
-      font-size: 1.4rem;
+      font-size: 5rem;
       margin-bottom: -3rem;
       .hero__name {
-        font-size: 6.5rem;
+        font-size: 7.5rem;
         font-family: 'Montserrat SemiBold';
       }
     }
