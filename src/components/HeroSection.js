@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
-import img from '../assets/images/d.jpeg';
+// import img from '../assets/images/a.jpeg';
 
 const HeroStyles = styled.div`
   .hero {
@@ -15,9 +15,6 @@ const HeroStyles = styled.div`
     align-items: center;
     justify-content: center;
     position: relative;
-    background-image: url(${img});
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   .hero__heading {
     font-size: 2rem;

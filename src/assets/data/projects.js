@@ -13,10 +13,10 @@ import harvard from '../images/harvard.jpeg';
 const projects = [
   {
     id: uuidv4(),
-    name: 'React Gallery app',
-    desc: 'https://github.com/doctorDAlvarez/gallery-app',
-    img: reactImg,
-    link: 'https://reactphotosearchapp.netlify.app/',
+    name: 'Express Library App',
+    desc: 'https://github.com/doctorDAlvarez/Library-App',
+    img: libraryapp,
+    link: 'https://librarycool.herokuapp.com/',
   },
   {
     id: uuidv4(),
@@ -34,6 +34,13 @@ const projects = [
   },
   {
     id: uuidv4(),
+    name: 'RSVP app',
+    desc: 'https://github.com/doctorDAlvarez/rsvp_App',
+    img: rsvp,
+    link: 'https://doctordalvarez.github.io/rsvp_App/',
+  },
+  {
+    id: uuidv4(),
     name: 'React Directory Project',
     desc: 'https://serene-mclean-47be12.netlify.app/',
     img: CavinImg,
@@ -48,10 +55,10 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'Express Library App',
-    desc: 'https://github.com/doctorDAlvarez/Library-App',
-    img: libraryapp,
-    link: 'https://librarycool.herokuapp.com/',
+    name: 'React Gallery app',
+    desc: 'https://github.com/doctorDAlvarez/gallery-app',
+    img: reactImg,
+    link: 'https://reactphotosearchapp.netlify.app/',
   },
   {
     id: uuidv4(),
@@ -66,13 +73,6 @@ const projects = [
     desc: 'https://github.com/doctorDAlvarez/publicAPI-Requests',
     img: publicapi,
     link: 'https://doctordalvarez.github.io/publicAPI-Requests/',
-  },
-  {
-    id: uuidv4(),
-    name: 'RSVP app',
-    desc: 'https://github.com/doctorDAlvarez/rsvp_App',
-    img: rsvp,
-    link: 'https://doctordalvarez.github.io/rsvp_App/',
   },
   {
     id: uuidv4(),
