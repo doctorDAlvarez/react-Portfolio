@@ -40,7 +40,7 @@ const HeroStyles = styled.div`
     margin: 0 auto;
     margin-top: 50px;
     opacity: 0.6;
-    border: 1px solid var(--gray-1);
+    /* border: 1px solid var(--gray-1); */
   }
   .hero__info {
     margin-top: -30rem;
@@ -108,10 +108,10 @@ const HeroStyles = styled.div`
       }
     }
     .hero__heading {
-      font-size: 5rem;
+      font-size: 4rem;
       margin-bottom: -3rem;
       .hero__name {
-        font-size: 7.5rem;
+        font-size: 4.5rem;
         font-family: 'Montserrat SemiBold';
       }
     }
