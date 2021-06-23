@@ -26,7 +26,7 @@ const ItemStyles = styled.div`
 export default function ServicesSectionItem({
   icon = <FaReact />,
   title = 'React',
-  description = `Create, build, test and deploy. Certificate program with Ryan Florence - 2021`,
+  description = `Create, build, test and deploy. React Hooks Course w/Ryan Florence - 2021`,
 }) {
   return (
     <ItemStyles>
