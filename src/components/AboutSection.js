@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
 import Button from './Button';
-import aboutImg from '../assets/images/profile.jpeg';
 
 const AboutSectionStyle = styled.div`
   padding: 20rem 0;
