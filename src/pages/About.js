@@ -82,33 +82,16 @@ export default function About() {
             <h2 className="about__heading">A software developer</h2>
             <div className="about__info">
               <PText>
-                I've been working with teams and groups of people for ten years,
-                mentored residents and be the leader of simulator training in
-                anesthesiology. <br />
-                <br />
-                I' am used to stressfull conditions like the operating room
-                enviroment, and assume an active role when problems must be
-                address rapidly. <br />
-                <br /> I've got experience in a big company training their
-                employees in ACLS and achieved great results with the HR
-                department in cardiac arrest management in the factory. <br />
-                <br />
-                I love to learn by teaching and doing.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque hic omnis temporibus cum. Magni et quae laboriosam molestias neque veritatis. Similique veniam perspiciatis dolorum commodi non? Molestiae totam mollitia laborum.
                 <br />
                 <br />
-                Now I am looking to apply my coding and tech skills and try to
-                improve the healthcare industry, developing innovative tools and
-                resources for the daily work of physicians.
-                <br />
-                <br />
-                I also want to collaborate with startups and companies that
-                could make use of my help.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe vero natus, earum ducimus dolor sed ipsa ipsum quis error, soluta eum quos deleniti quas sit! Provident atque ipsum laborum.
                 <br />
                 <br />
                 Thanks for visiting.
                 <br />
                 <br />
-                @doc
+                
               </PText>
             </div>
             {/* <Button btnText="Resume" btnLink="/" lowMargin /> */}
