@@ -80,15 +80,14 @@ export default function AboutSection() {
         <div className="aboutSection__left">
           <SectionTitle heading="About me" />
           <PText>
-            Hi there!<br />
-            as a <span style={{ color: '#61dafb' }}>software developer</span>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et molestiae placeat suscipit aut sint illum. Animi fuga commodi, at libero exercitationem qui ducimus ipsam eius officiis ex assumenda, hic natus.
-            <br />
-            <br />
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius neque, unde cum omnis, maiores, esse illum adipisci asperiores incidunt minima consectetur. Architecto velit a quibusdam et dolor animi ipsa rem.
-            <br />
-            <br />
-            Let's connect
+            <p>
+              Hi there!
+              <span style={{ color: '#61dafb' }}>software developer</span>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et
+              molestiae placeat suscipit aut sint illum. Animi fuga commodi, at
+              libero exercitationem qui ducimus ipsam eius officiis ex
+              assumenda, hic natus. Let's connect
+            </p>
           </PText>
           <div className="aboutSection__buttons">
             <Button btnLink="#" btnText="Resume" lowMargin download />
@@ -96,7 +95,11 @@ export default function AboutSection() {
           </div>
         </div>
         <div className="aboutSection__right">
-          <img style={{ opacity: '0.9' }} src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Phoenicopterus_ruber_in_S%C3%A3o_Paulo_Zoo.jpg" alt="about img" />
+          <img
+            style={{ opacity: '0.9' }}
+            src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Phoenicopterus_ruber_in_S%C3%A3o_Paulo_Zoo.jpg"
+            alt="about img"
+          />
         </div>
       </div>
     </AboutSectionStyle>

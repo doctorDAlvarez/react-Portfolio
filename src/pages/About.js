@@ -82,16 +82,21 @@ export default function About() {
             <h2 className="about__heading">A software developer</h2>
             <div className="about__info">
               <PText>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque hic omnis temporibus cum. Magni et quae laboriosam molestias neque veritatis. Similique veniam perspiciatis dolorum commodi non? Molestiae totam mollitia laborum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                hic omnis temporibus cum. Magni et quae laboriosam molestias
+                neque veritatis. Similique veniam perspiciatis dolorum commodi
+                non? Molestiae totam mollitia laborum.
                 <br />
                 <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe vero natus, earum ducimus dolor sed ipsa ipsum quis error, soluta eum quos deleniti quas sit! Provident atque ipsum laborum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae saepe vero natus, earum ducimus dolor sed ipsa ipsum
+                quis error, soluta eum quos deleniti quas sit! Provident atque
+                ipsum laborum.
                 <br />
                 <br />
                 Thanks for visiting.
                 <br />
                 <br />
-                
               </PText>
             </div>
             {/* <Button btnText="Resume" btnLink="/" lowMargin /> */}
