@@ -2,5 +2,7 @@
 
 ## Client
 
-> Private client.
+> Photographer and graphic designer.
+
+> Data has been modified for privacy settings.
 
